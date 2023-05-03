@@ -1,0 +1,15 @@
+.accordion-item{
+    border: none;
+    margin: 20px 40px;    
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+.accordion-button{
+    width: 90%;
+    height: 10vh
+}
+
+.accordion-button:not(.collapsed),.accordion-button:focus {
+    background-color: white;
+    box-shadow: none;
+}
