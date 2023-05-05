@@ -1,0 +1,110 @@
+* {
+    color: #B1A592;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #333333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #B1A592;
+    padding: 3px;
+    border-radius: 35px;
+    margin: 10px 0 10px 0;
+
+}
+
+
+.navbar .btn,
+.navbar p {
+    background-color: #333333;
+    border: 1px solid #B1A592;
+    border-radius: 25px;
+    align-items: center;
+    font-size: 15px;
+    margin: 2px;
+    padding: 10px 40px 10px 40px;
+}
+
+.navbar p {
+    display: inline-block;
+    background: #323025;
+    padding: 10px 50px 10px 50px;
+}
+
+.navbar .btn:hover {
+    background: #B1A592;
+    color: #333333;
+}
+
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.container p,
+.container span,
+.container h1,
+.container h2 {
+    color: #323025;
+}
+
+#item-1 {
+    background: #DFD6C5;
+    width: 40%;
+
+}
+
+#item-2 {
+    background: #8E886D;
+
+}
+
+#item-3 {
+    background: #916E58;
+    width: 40%;
+
+}
+
+#item-4 {
+    background: #B1A48E;
+    width: 60%;
+}
+
+.box{
+    border-radius: 20px;
+}
+
+.img img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+@media screen and (max-width: 840px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .navbar #btn1,
+    .navbar #btn3,
+    .navbar #btn4 {
+        display: none;
+    }
+
+    .navbar .company {
+        width: auto;
+    }
+
+
+}
